@@ -109,7 +109,7 @@ h2 {
   text-align: center;
   border-top: 1px solid #d05c2e;
   padding: 1em;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .famous-cereals-header {
@@ -128,4 +128,23 @@ h2 {
 
 .famous-cereals {
   background-color: #dc8252;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 0.75em;
+  overflow: hidden;
+}
+
+figcaption {
+  padding-bottom: 1em;
+}
+
+.rice {
+  float: left;
+  width: 50%;
+}
+
+.oats {
+  float: right;
+  width: 50%;
 }
