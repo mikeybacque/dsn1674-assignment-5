@@ -12,6 +12,7 @@ body {
 
 header {
   background-color: #d05c2e;
+  text-align: center;
   padding-top: 0.75em;
 }
 
@@ -26,9 +27,19 @@ h1 {
   font-weight: bold;
   color: #fff;
   margin: 0;
+  text-align: center;
 }
 
 .icon2 {
   float: right;
   width: 15%;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
 }
