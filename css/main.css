@@ -148,3 +148,37 @@ figcaption {
   float: right;
   width: 50%;
 }
+
+.famous-legumes {
+  float: left;
+  width: 30%;
+  margin: 0em 0.75em 1.5em 0em;
+  border: 1px solid #aaa;
+}
+
+.legumes-figure {
+  margin: .75em;
+}
+
+.clear {
+  clear: left;
+}
+
+.peanuts {
+  margin-top: 0.25em;
+}
+
+span {
+  font-size: .8em;
+  font-style: italic;
+}
+
+footer {
+  background-color: #d05c2e;
+  margin-top: 2em;
+  padding: 1.5em;
+  text-align: center;
+  font-size: 0.75em;
+  color: #dfa998;
+  clear: left;
+}
