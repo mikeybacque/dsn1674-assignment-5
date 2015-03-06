@@ -9,3 +9,26 @@ html {
 body {
   margin: 0;
 }
+
+header {
+  background-color: #d05c2e;
+  padding-top: 0.75em;
+}
+
+.icon {
+  float: left;
+  width: 15%;
+}
+
+h1 {
+  display: inline-block;
+  font-family: Merriweather, serif;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.icon2 {
+  float: right;
+  width: 15%;
+}
