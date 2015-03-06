@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  font-family: Merriweather, serif;
 }
 
 header {
@@ -23,7 +24,6 @@ header {
 
 h1 {
   display: inline-block;
-  font-family: Merriweather, serif;
   font-weight: bold;
   color: #fff;
   margin: 0;
@@ -36,10 +36,82 @@ h1 {
 }
 
 ol {
+  font-size: 1.1em;
   list-style-type: none;
   padding: 0;
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
+  background-color: #d05c2e;
+  border: 1px solid #a93f35;
+  padding: 0.5em;
+}
+
+nav li:hover {
+  background-color: #a93f35;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro {
+  float: left;
+  width: calc(100% / 3);
+  padding-right: 0;
+}
+
+.legumes {
+  float: right;
+  width: calc(100% / 3);
+}
+
+.cereals {
+  width: calc(100% / 3);
+  border-left: 0;
+  border-right: 0;
+}
+
+.p {
+  margin: 0em 0.75em 0em 0.75em;
+}
+
+.grains {
+  float: left;
+  width: 40%;
+  margin-right: 0.5em;
+  border: 1px solid #aaa;
+}
+
+.cereals-image {
+  float: right;
+  width: 40%;
+  border: 1px solid #aaa;
+  margin: 0em 0em 0.75em 0.75em;
+}
+
+.quinoa {
+  float: right;
+  width: 40%;
+  border: 1px solid #aaa;
+  clear: right;
+  margin-left: 0.75em;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+h2 {
+  text-align: center;
+  border-top: 1px solid #d05c2e;
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+.famous-cereals {
+  background-color: #dc8252;
+  color: #fff;
 }
